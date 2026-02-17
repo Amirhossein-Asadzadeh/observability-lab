@@ -1,3 +1,5 @@
+[![CI](https://github.com/Amirhossein-Asadzadeh/observability-lab/actions/workflows/ci.yml/badge.svg)](https://github.com/Amirhossein-Asadzadeh/observability-lab/actions/workflows/ci.yml)
+
 # Observability Lab — Prometheus · Alertmanager · Grafana · Node Exporter
 
 A **production-style observability stack** built with Docker Compose to demonstrate metrics collection, alerting, and visualization. This lab is designed as a hands-on portfolio project for DevOps / SRE / Cloud roles.
@@ -21,6 +23,12 @@ This repository focuses on **clarity, reproducibility, and real-world practices*
 * **Alertmanager** — alert routing and grouping
 * **Grafana** — dashboards and visualization
 * **Node Exporter** — system-level metrics (CPU, memory, disk, network)
+
+---
+
+## Screenshots
+
+![Grafana Dashboard](docs/screenshots/grafana-dashboard.png)
 
 ---
 
@@ -106,15 +114,6 @@ Alert thresholds and routing can be modified in the Prometheus rules and Alertma
 
 * Replace any secrets (for example Slack webhooks) with **placeholders** before committing.
 * This project is intended for **learning, demos, and portfolio use**, not as a hardened production deployment.
-
----
-
-## Roadmap
-
-* Add runbooks with troubleshooting steps and PromQL examples
-* Add Grafana dashboard screenshots
-* Add CI checks with GitHub Actions
-* Kubernetes (Helm) deployment variant
 
 ---
 
